@@ -26,7 +26,7 @@ class QAPipeline:
 
     def __call__(self, inputs: str):
         inputs = " ".join(inputs.split())
-        sents, answers = self._extract_answers(inputs)
+        answers = self._extract_answers(inputs)
         flat_answers = list(itertools.chain(*answers))
 
         if len(flat_answers) == 0:
