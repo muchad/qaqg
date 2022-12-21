@@ -59,8 +59,7 @@ class TaskPipeline(QAPipeline):
     
     def _prepare_inputs(self, question, context):
         source_text = f"question: {question}  context: {context}"
-        if self.model_type == "t5":
-            source_text = source_text + " </s>"
+        source_text = source_text + " </s>"
         return  source_text
     
     def _extract_answer(self, question, context):
