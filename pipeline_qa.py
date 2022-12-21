@@ -1,5 +1,5 @@
 import itertools
-from typing import Optional, Dict, Union
+from typing import Dict, Union
 
 from nltk import sent_tokenize
 import nltk
@@ -72,7 +72,6 @@ class TaskPipeline(QAPipeline):
             max_length=80,
         )
         answer = self.tokenizer.decode(outs[0], skip_special_tokens=True)
-
         return answer
 
 def pipeline():    
