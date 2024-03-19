@@ -3,7 +3,11 @@
 
 ## idT5 for Question Generation and Question Answering
 
-[idT5](https://huggingface.co/muchad/idt5) (Indonesian version of [mT5](https://huggingface.co/google/mt5-base)) is fine-tuned on 30% of [translated SQuAD v2.0](https://github.com/Wikidepia/indonesian_datasets/tree/master/question-answering/squad) for **Question Generation and Question Answering** tasks.
+[idT5](https://huggingface.co/muchad/idt5-base) (Indonesian version of [mT5](https://huggingface.co/google/mt5-base)) is fine-tuned on 30% of [translated SQuAD v2.0](https://github.com/Wikidepia/indonesian_datasets/tree/master/question-answering/squad) for **Question Generation and Question Answering** tasks. 
+
+**idT5 Paper:**
+1. [IEEE](https://ieeexplore.ieee.org/document/10420049/)
+2. [arXiv](https://arxiv.org/abs/2302.00856)
 
 ![result](assets/aqg-web.gif)
 
